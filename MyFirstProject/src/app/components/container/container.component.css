@@ -1,0 +1,22 @@
+#container{
+
+    height:calc(100vh - 160px);
+    display: flex;
+  
+
+}
+#main{
+    background-color: violet;
+    flex:3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aside{
+    background-color: green;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

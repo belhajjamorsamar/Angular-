@@ -1,0 +1,13 @@
+header{
+    height: 60px;
+    background-color: blue;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size:2rem ;
+   
+
+}
+   
