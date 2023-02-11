@@ -1,0 +1,15 @@
+<h2>Programming Books List!</h2>
+<button (click) ="isShowing =! isShowing">
+    <ng-container *ngIf="!isShowing">Show Book</ng-container>
+    <ng-container *ngIf="isShowing">Hide Book</ng-container>
+    </button>
+<ul *ngIf="!isShowing" >
+
+    <ng-container *ngFor="let signlebook of Books ; let i=index">
+    <app-book [book]="signlebook"></app-book>
+</ng-container>
+   
+
+   
+</ul>
+
